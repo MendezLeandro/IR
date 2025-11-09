@@ -25,6 +25,18 @@ For example:
 npx vitest -t minimalTree
 ```
 
+### Python tests (mirror of TS problems)
+
+Python solutions live under `coding/problems/python_solutions/` and a mirrored pytest suite is under `coding/problems/__pytests__/`.
+
+Run them with:
+
+```bash
+cd interview-ready/technical-fundamentals
+python -m pip install -r requirements.txt
+pytest coding/problems/__pytests__ -q
+```
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch for your solution:
