@@ -3,3 +3,8 @@
 .next
 **/node_modules
 coding-challenges/yarn.lock
+
+# python
+.venv
+*.pyc
+.keep
